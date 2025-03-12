@@ -4,8 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PH Tube</title>
+    <!-- DAISY UI -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!--  -->
   </head>
   <body>
+    <!-- HEADER -->
+    <header>
+      <!-- NAV BAR -->
+      <nav
+        class="flex w-11/12 mx-auto justify-between items-center py-5 border-b-1 border-gray-300"
+      >
+        <div class="w-32">
+          <img src="assets/Logo.png" alt="" />
+        </div>
+        <div>
+          <button class="btn">Sort by view</button>
+        </div>
+        <div>
+          <button class="btn bg-red-500 text-white">Blog</button>
+        </div>
+      </nav>
+    </header>
+    <!-- BUTTON SECTION -->
+    <section>
+      <nav id="button-container" class="flex justify-center py-5 gap-4">
+        <div>
+          <button class="btn btn-sm bg-red-500 text-white">All</button>
+        </div>
+      </nav>
+    </section>
+    <!-- JAVA SCRIPT LINK -->
     <script src="js/index.js"></script>
   </body>
 </html>
